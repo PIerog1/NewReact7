@@ -1,0 +1,20 @@
+If
+
+if (isLogged) {
+  return <Dashboard />
+}
+
+?:
+
+{isLogged ? <Dashboard /> : <Login />}
+
+&&
+
+{isLogged && <Dashboard />}
+
+2.
+0 to normalna wartość
+React nie ukrywa liczb
+
+3.
+Trzeba sprawić żeby React miał true/false, a nie liczbę
